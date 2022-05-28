@@ -1,0 +1,26 @@
+footer {
+    color: #eee;
+    padding: 32px;
+    border-top: solid 3px black;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex;
+    font-weight: 500;
+    background-color: #333;
+}
+
+footer div {
+    margin-bottom: 10px;
+}
+
+footer input {
+    outline: 0;
+    background: #f2f2f2;
+    width: 350px;
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}

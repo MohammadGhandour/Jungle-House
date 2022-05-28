@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: 'Roboto'
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+.container-cart-shop {
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .container-cart-shop {
+    flex-direction: column;
+  }
+}

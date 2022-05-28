@@ -1,0 +1,21 @@
+.selectContainer {
+    align-self: flex-start;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+select {
+    margin-top: 10px;
+    padding: 7.5px;
+    /* font-weight: bold; */
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #333;
+    background-color: #eee;
+    border-radius: 5px;
+    text-transform: capitalize;
+    cursor: pointer;
+}

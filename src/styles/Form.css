@@ -1,0 +1,48 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 15px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+input,
+textarea {
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    resize: none;
+}
+
+.formBtn {
+    outline: 0;
+    background: #31b572;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.formBtn:hover,
+.formBtn:active,
+.formBtn:focus {
+    background: rgb(33, 126, 80);
+}
+
+.errorMessage {
+    margin-bottom: 15px;
+    color: darkred;
+    font-weight: bold;
+}

@@ -1,0 +1,59 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: 15px auto;
+}
+
+.categories {
+    align-self: flex-start;
+    list-style-type: none;
+}
+
+.categories li {
+    text-transform: capitalize;
+}
+
+.plants {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plantItem {
+    max-width: 250px;
+    border-radius: 4px;
+    margin: 10px 10px 40px 10px;
+    text-align: left;
+    text-transform: capitalize;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.addToCartBtn {
+    outline: 0;
+    border: 0;
+    background: #31b572;
+    color: #eee;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    .plantItem {
+        max-width: 125px;
+    }
+}
