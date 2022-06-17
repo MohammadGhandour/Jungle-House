@@ -1,3 +1,14 @@
+
+import monstera from '../assets/plants/monstera.webp'
+import lyrata from '../assets/plants/lyrata.webp'
+import pothos from '../assets/plants/pothos.webp'
+import succulent from '../assets/plants/succulent.webp'
+import olive from '../assets/plants/olive.webp'
+import basil from '../assets/plants/basil.webp'
+import mint from '../assets/plants/mint.webp'
+import calathea from '../assets/plants/calathea.webp'
+import cactus from '../assets/plants/cactus.webp'
+
 export const plantList = [
     {
         name: 'monstera',
@@ -7,7 +18,7 @@ export const plantList = [
         isSpecialOffer: false,
         light: 2,
         water: 3,
-        cover: 'https://github.com/OpenClassrooms-Student-Center/7132446-React/blob/P3C1-Begin/src/assets/monstera.jpg?raw=true',
+        cover: monstera,
         price: 15
     },
     {
@@ -18,7 +29,7 @@ export const plantList = [
         isSpecialOffer: false,
         light: 3,
         water: 1,
-        cover: 'https://github.com/OpenClassrooms-Student-Center/7132446-React/blob/P3C1-Begin/src/assets/lyrata.jpg?raw=true',
+        cover: lyrata,
         price: 16
     },
     {
@@ -29,7 +40,7 @@ export const plantList = [
         isSpecialOffer: true,
         light: 1,
         water: 2,
-        cover: 'https://github.com/OpenClassrooms-Student-Center/7132446-React/blob/P3C1-Begin/src/assets/pothos.jpg?raw=true',
+        cover: pothos,
         price: 9
     },
     {
@@ -40,7 +51,7 @@ export const plantList = [
         isSpecialOffer: false,
         light: 3,
         water: 1,
-        cover: 'https://github.com/OpenClassrooms-Student-Center/7132446-React/blob/P3C1-Begin/src/assets/calathea.jpg?raw=true',
+        cover: calathea,
         price: 20
     },
     {
@@ -51,7 +62,7 @@ export const plantList = [
         isSpecialOffer: false,
         light: 3,
         water: 1,
-        cover: 'https://github.com/OpenClassrooms-Student-Center/7132446-React/blob/P3C1-Begin/src/assets/olive.jpg?raw=true',
+        cover: olive,
         price: 25
     },
     {
@@ -62,7 +73,7 @@ export const plantList = [
         isSpecialOffer: false,
         light: 2,
         water: 2,
-        cover: 'https://github.com/OpenClassrooms-Student-Center/7132446-React/blob/P3C1-Begin/src/assets/cactus.jpg?raw=true',
+        cover: cactus,
         price: 6
     },
     {
@@ -73,7 +84,7 @@ export const plantList = [
         isSpecialOffer: true,
         light: 2,
         water: 3,
-        cover: 'https://github.com/OpenClassrooms-Student-Center/7132446-React/blob/P3C1-Begin/src/assets/basil.jpg?raw=true',
+        cover: basil,
         price: 5
     },
     {
@@ -84,7 +95,7 @@ export const plantList = [
         isSpecialOffer: true,
         light: 2,
         water: 1,
-        cover: 'https://github.com/OpenClassrooms-Student-Center/7132446-React/blob/P3C1-Begin/src/assets/mint.jpg?raw=true',
+        cover: mint,
         price: 8
     },
     {
@@ -95,7 +106,7 @@ export const plantList = [
         isSpecialOffer: false,
         light: 2,
         water: 1,
-        cover: 'https://github.com/OpenClassrooms-Student-Center/7132446-React/blob/P3C1-Begin/src/assets/succulent.jpg?raw=true',
+        cover: succulent,
         price: 4
     }
 ]
